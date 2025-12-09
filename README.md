@@ -59,16 +59,24 @@ SmartGreenhouse_v3.ino — точка входа
 
 │ └─ история суток
 
-
 ├── DeviceManager/ — работа с датчиками и железом
+
 ├── WebUiAsync/ — веб-интерфейс
+
 ├── TelegramAsync/ — Telegram-бот
+
 ├── TimeManager/ — NTP + RTC + локальное время
+
 ├── SoilCalibration/ — калибровка датчика почвы
+
 ├── Storage/ — EEPROM, CRC, миграции
+
 ├── SunPosition/ — расчёт солнца (день/ночь/углы)
+
 ├── Diagnostics/ — проверки, алерты
+
 ├── TelemetryLogger/ — история данных
+
 └── Config/Types/Globals — конфигурации и структуры данных
 
 ## 🚀 Быстрый старт
